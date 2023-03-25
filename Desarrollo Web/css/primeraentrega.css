@@ -1,0 +1,71 @@
+html {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+header {
+    background-color: black;
+    display: grid;
+
+}
+
+.imgBanner {
+    border-radius: 100%;
+    height: auto;
+    max-width: 5rem;
+
+
+}
+
+.menu li {
+    color: white;
+    display: grid;
+grid-template-rows: 50%;
+justify-content:center;
+grid-row:center;
+}
+
+.listaMenu {
+    display: grid;
+}
+
+.menu {
+    display: grid;
+
+
+}
+
+.newExpansion {
+    display: grid;
+    justify-content: center;
+
+}
+
+.description {
+    display: grid;
+    justify-content: center;
+
+}
+
+.expansions {
+    display: grid;
+
+}
+
+.textExpansions {
+    display: grid;
+    grid-row-start: auto;
+
+}
+
+footer {
+    background-color: black;
+    display: grid;
+}
+
+.copy {
+    display: grid;
+    color: white;
+    justify-content: center;
+}
