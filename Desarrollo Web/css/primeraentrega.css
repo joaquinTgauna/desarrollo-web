@@ -4,36 +4,12 @@ html {
 
 }
 
-header {
-    background-color: black;
-    display: grid;
-
-}
-
 .imgBanner {
     border-radius: 100%;
     height: auto;
     max-width: 5rem;
-
-
-}
-
-.menu li {
-    color: white;
-    display: grid;
-grid-template-rows: 50%;
-justify-content:center;
-grid-row:center;
-}
-
-.listaMenu {
-    display: grid;
-}
-
-.menu {
-    display: grid;
-
-
+    display: flex;
+    justify-content: flex-start;
 }
 
 .newExpansion {
@@ -56,7 +32,6 @@ grid-row:center;
 .textExpansions {
     display: grid;
     grid-row-start: auto;
-
 }
 
 footer {
@@ -68,4 +43,144 @@ footer {
     display: grid;
     color: white;
     justify-content: center;
+}
+
+
+
+.price {
+    color: black;
+    justify-content: center;
+    display: flex;
+
+}
+
+.decks {
+    max-width: 600px;
+    min-width: 400px;
+
+}
+
+.decksPrice {
+    width: 25%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    border: 5rem;
+    color: black;
+}
+
+.cardsPrice {
+    display: grid;
+    justify-content: center;
+    padding: 2px;
+    width: 25%;
+    height: 75%;
+}
+
+.cardsImg {
+    display: grid;
+    width: 50%;
+    height: 50%;
+    max-width: 900px;
+    min-width: 400px;
+}
+
+.deckBox {
+    display: grid;
+
+}
+
+
+@media (max-width: 900px) {
+    .newExpansion a img {
+        justify-content: center;
+    }
+
+    .lastExpansion img {
+        max-width: 100%;
+        justify-content: left;
+    }
+
+    .expansions img {
+        max-width: 100%;
+        justify-content: start;
+    }
+
+    .cardsImg img p {
+        max-width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 390px) {
+    .newExpansion a img {
+        max-width: 100%;
+        justify-content: center;
+
+    }
+
+    .lastExpansion img {
+        max-width: 100%;
+        justify-content: left;
+    }
+
+    .expansions img p {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .cardsImg img p {
+        max-width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .newExpansion a img {
+        justify-content: center;
+    }
+
+    .lastExpansion img {
+        max-width: 100%;
+        justify-content: left;
+    }
+
+    .expansions img p {
+        max-width: 100%;
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .cardsImg img p {
+        max-width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 600px) {
+    .newExpansion a img {
+        max-width: 100%;
+        justify-content: center;
+
+    }
+
+    .lastExpansion img {
+        max-width: 100%;
+        justify-content: left;
+    }
+
+    .expansions img p {
+        max-width: 100%;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .cardsImg img p {
+        max-width: 100%;
+        justify-content: center;
+    }
 }
