@@ -110,6 +110,24 @@ footer {
         max-width: 100%;
         justify-content: center;
     }
+
+    .decks img p {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .deckBox img p {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .accesories img p {
+        max-width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+
+
 }
 
 @media (min-width: 390px) {
@@ -133,6 +151,23 @@ footer {
         max-width: 100%;
         justify-content: center;
     }
+
+    .decks img p {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .deckBox img p {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .accesories img p {
+        max-width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+
 }
 
 @media (max-width: 800px) {
@@ -157,6 +192,24 @@ footer {
         max-width: 100%;
         justify-content: center;
     }
+
+    .decks img p {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .deckBox img p {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .accesories img p {
+        max-width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+
+
 }
 
 @media (min-width: 600px) {
@@ -183,4 +236,21 @@ footer {
         max-width: 100%;
         justify-content: center;
     }
+
+    .decks img p {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .deckBox img p {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .accesories img p {
+        max-width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+
 }
