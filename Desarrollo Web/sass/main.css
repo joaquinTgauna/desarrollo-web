@@ -23,25 +23,29 @@ html {
 }
 
 .expansions {
-  display: grid;
-  padding-top: 10px;
-  justify-content: space-between;
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 5px;
 }
 
 .textExpansions {
-  display: grid;
-  grid-row-start: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 10px;
 }
 
 footer {
   background-color: black;
-  display: grid;
+  display: flex;
 }
 
 .copy {
-  display: grid;
   color: white;
-  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .price {
@@ -51,73 +55,90 @@ footer {
 }
 
 .decks {
-  max-width: 600px;
-  min-width: 400px;
+  display: flex;
+  max-width: 45%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
 }
 
 .decksPrice {
-  width: 25%;
-  height: 75%;
   display: flex;
-  justify-content: center;
-  border: 5rem;
+  justify-content: flex-start;
+  padding: 30px;
   color: black;
 }
 
 .cardsPrice {
   display: grid;
-  justify-content: center;
-  padding: 2px;
-  width: 25%;
-  height: 75%;
+  justify-content: start;
+  padding: 10px;
 }
 
-.cardsImg {
-  display: grid;
-  width: 50%;
-  height: 50%;
-  max-width: 900px;
-  min-width: 400px;
+.img1 {
+  display: flex;
+  max-width: 45%;
+  flex-direction: column;
+  padding: 10px;
 }
 
 .deckBox {
-  display: grid;
+  display: flex;
+  max-width: 50%;
 }
 
-@media (max-width: 900px) {
+.lastExpansion {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.accesories {
+  display: flex;
+  max-width: 45%;
+  padding: 10px;
+}
+
+.dprice {
+  display: flex;
+  padding: 20px;
+}
+
+@media (max-width: 767px) {
   .newExpansion a img {
     justify-content: center;
     padding: 2, 5px;
+    max-width: 80%;
   }
   .lastExpansion img {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: left;
   }
   .expansions img {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: start;
   }
   .cardsImg img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
   }
   .decks img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
   }
   .deckBox img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
   }
   .accesories img p {
-    max-width: 100%;
+    max-width: 80%;
     display: grid;
     justify-content: center;
   }
 }
-@media (min-width: 390px) {
+@media (min-width: 481px) {
   .newExpansion a img {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
     padding: 2, 5px;
   }
@@ -126,28 +147,30 @@ footer {
     justify-content: left;
   }
   .expansions img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
   }
   .cardsImg img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
   }
   .decks img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
+    display: grid;
   }
   .deckBox img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
+    display: grid;
   }
   .accesories img p {
-    max-width: 100%;
+    max-width: 80%;
     display: grid;
     justify-content: center;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 480px) {
   .newExpansion a img {
     justify-content: center;
     padding: 2, 5px;
@@ -157,31 +180,31 @@ footer {
     justify-content: left;
   }
   .expansions img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: space-between;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
   .cardsImg img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
   }
   .decks img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
   }
   .deckBox img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
   }
   .accesories img p {
-    max-width: 100%;
+    max-width: 80%;
     display: grid;
     justify-content: center;
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 320px) {
   .newExpansion a img {
     max-width: 100%;
     justify-content: center;
@@ -199,19 +222,19 @@ footer {
     grid-template-rows: 1fr 1fr;
   }
   .cardsImg img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
   }
   .decks img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
   }
   .deckBox img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
   }
   .accesories img p {
-    max-width: 100%;
+    max-width: 80%;
     display: grid;
     justify-content: center;
   }
@@ -222,30 +245,30 @@ footer {
     padding: 2, 5px;
   }
   .lastExpansion img {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: left;
   }
   .expansions img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: space-between;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .cardsImg img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
   }
   .decks img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
   }
   .deckBox img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
   }
   .accesories img p {
-    max-width: 100%;
+    max-width: 80%;
     display: grid;
     justify-content: center;
   }
@@ -257,31 +280,33 @@ footer {
     padding: 2, 5px;
   }
   .lastExpansion img {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: left;
   }
   .expansions img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
   .cardsImg img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
   }
   .decks img p {
-    max-width: 100%;
+    max-width: 50%;
     justify-content: center;
   }
   .deckBox img p {
-    max-width: 100%;
+    max-width: 80%;
     justify-content: center;
   }
   .accesories img p {
-    max-width: 100%;
+    max-width: 80%;
     display: grid;
     justify-content: center;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

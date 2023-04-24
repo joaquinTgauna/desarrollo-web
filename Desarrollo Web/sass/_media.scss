@@ -1,44 +1,45 @@
-@media (max-width: 900px) {
+@media (max-width: 767px) {
     .newExpansion a img {
         justify-content: center;
         padding: 2, 5px;
+        max-width: 80%;
     }
 
     .lastExpansion img {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: left;
     }
 
     .expansions img {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: start;
     }
 
     .cardsImg img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
     }
 
     .decks img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
     }
 
     .deckBox img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
     }
 
     .accesories img p {
-        max-width: 100%;
+        max-width: 80%;
         display: grid;
         justify-content: center;
     }
 }
 
-@media (min-width: 390px) {
+@media (min-width: 481px) {
     .newExpansion a img {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
         padding: 2, 5px;
     }
@@ -49,33 +50,35 @@
     }
 
     .expansions img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
     }
 
     .cardsImg img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
     }
 
     .decks img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
+        display: grid;
     }
 
     .deckBox img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
+        display: grid;
     }
 
     .accesories img p {
-        max-width: 100%;
+        max-width: 80%;
         display: grid;
         justify-content: center;
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 480px) {
     .newExpansion a img {
         justify-content: center;
         padding: 2, 5px;
@@ -87,7 +90,7 @@
     }
 
     .expansions img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: space-between;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -95,28 +98,28 @@
     }
 
     .cardsImg img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
     }
 
     .decks img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
     }
 
     .deckBox img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
     }
 
     .accesories img p {
-        max-width: 100%;
+        max-width: 80%;
         display: grid;
         justify-content: center;
     }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 320px) {
     .newExpansion a img {
         max-width: 100%;
         justify-content: center;
@@ -137,22 +140,22 @@
     }
 
     .cardsImg img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
     }
 
     .decks img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
     }
 
     .deckBox img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
     }
 
     .accesories img p {
-        max-width: 100%;
+        max-width: 80%;
         display: grid;
         justify-content: center;
     }
@@ -165,35 +168,35 @@
     }
 
     .lastExpansion img {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: left;
     }
 
     .expansions img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: space-between;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .cardsImg img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
     }
 
     .decks img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
     }
 
     .deckBox img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
     }
 
     .accesories img p {
-        max-width: 100%;
+        max-width: 80%;
         display: grid;
         justify-content: center;
     }
@@ -207,12 +210,12 @@
     }
 
     .lastExpansion img {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: left;
     }
 
     .expansions img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -220,22 +223,22 @@
     }
 
     .cardsImg img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
     }
 
     .decks img p {
-        max-width: 100%;
+        max-width: 50%;
         justify-content: center;
     }
 
     .deckBox img p {
-        max-width: 100%;
+        max-width: 80%;
         justify-content: center;
     }
 
     .accesories img p {
-        max-width: 100%;
+        max-width: 80%;
         display: grid;
         justify-content: center;
     }
