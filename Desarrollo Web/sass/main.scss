@@ -96,7 +96,7 @@ footer {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-
+    padding: 10px;
 }
 
 .accesories {
@@ -106,7 +106,19 @@ footer {
 
 .dprice {
     display: flex;
-    padding: 20px;
+    justify-content: flex-start;
+    padding: 30px;
+    color: black;
 }
+
+
+.accesoriesp {
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+    color: black;
+}
+
+
 
 @import 'media';

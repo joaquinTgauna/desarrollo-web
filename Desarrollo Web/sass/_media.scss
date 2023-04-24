@@ -15,12 +15,12 @@
         justify-content: start;
     }
 
-    .cardsImg img p {
+    .cardsImg>img {
         max-width: 80%;
         justify-content: center;
     }
 
-    .decks img p {
+    .decks>img {
         max-width: 80%;
         justify-content: center;
     }
@@ -97,12 +97,12 @@
         grid-template-rows: 1fr 1fr;
     }
 
-    .cardsImg img p {
+    .cardsImg>img {
         max-width: 80%;
         justify-content: center;
     }
 
-    .decks img p {
+    .decks>img {
         max-width: 80%;
         justify-content: center;
     }
@@ -181,22 +181,22 @@
     }
 
     .cardsImg>img {
-        max-width: 10%;
+        max-width: 29%;
         justify-content: center;
     }
 
-    .decks img p {
-        max-width: 10%;
+    .decks>img {
+        max-width: 29%;
         justify-content: center;
     }
 
-    .deckBox img p {
-        max-width: 80%;
+    .deckBox>img {
+        max-width: 70%;
         justify-content: center;
     }
 
-    .accesories img p {
-        max-width: 80%;
+    .accesories>img {
+        max-width: 70%;
         display: grid;
         justify-content: center;
     }
