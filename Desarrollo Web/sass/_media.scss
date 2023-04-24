@@ -180,13 +180,13 @@
         align-items: center;
     }
 
-    .cardsImg img p {
-        max-width: 80%;
+    .cardsImg>img {
+        max-width: 10%;
         justify-content: center;
     }
 
     .decks img p {
-        max-width: 80%;
+        max-width: 10%;
         justify-content: center;
     }
 
@@ -223,12 +223,12 @@
     }
 
     .cardsImg img p {
-        max-width: 80%;
+        max-width: 10%;
         justify-content: center;
     }
 
     .decks img p {
-        max-width: 50%;
+        max-width: 10%;
         justify-content: center;
     }
 
@@ -238,7 +238,7 @@
     }
 
     .accesories img p {
-        max-width: 80%;
+        max-width: 30%;
         display: grid;
         justify-content: center;
     }
