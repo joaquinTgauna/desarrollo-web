@@ -41,14 +41,15 @@ html {
 
 footer {
     background-color: black;
-    display: flex;
+    display: grid;
 
 }
 
 .copy {
     color: white;
-    display: flex;
-    align-items: center;
+    display: grid;
+    justify-content: center;
+
 }
 
 
@@ -88,7 +89,8 @@ footer {
 }
 
 .deckBox {
-    display: flex;
+    display: grid;
+    justify-content: start;
 
 }
 
@@ -100,23 +102,24 @@ footer {
 }
 
 .accesories {
-    display: flex;
+    display: grid;
     padding: 10px;
+    justify-content: start;
 }
 
 .dprice {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    padding: 10px;
+    display: grid;
+    justify-content: start;
+    padding: 15px;
+    color: black;
 
 }
 
 
 .accesoriesp {
-    display: flex;
-    justify-content: flex-start;
-    padding: 30px;
+    display: grid;
+    justify-content: start;
+    padding: 15px;
     color: black;
 }
 

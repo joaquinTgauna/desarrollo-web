@@ -39,13 +39,13 @@ html {
 
 footer {
   background-color: black;
-  display: flex;
+  display: grid;
 }
 
 .copy {
   color: white;
-  display: flex;
-  align-items: center;
+  display: grid;
+  justify-content: center;
 }
 
 .price {
@@ -81,7 +81,8 @@ footer {
 }
 
 .deckBox {
-  display: flex;
+  display: grid;
+  justify-content: start;
 }
 
 .lastExpansion {
@@ -92,24 +93,26 @@ footer {
 }
 
 .accesories {
-  display: flex;
+  display: grid;
   padding: 10px;
+  justify-content: start;
 }
 
 .dprice {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  padding: 10px;
-}
-
-.accesoriesp {
-  display: flex;
-  justify-content: flex-start;
-  padding: 30px;
+  display: grid;
+  justify-content: start;
+  padding: 15px;
   color: black;
 }
 
+.accesoriesp {
+  display: grid;
+  justify-content: start;
+  padding: 15px;
+  color: black;
+}
+
+/* tablet */
 @media (max-width: 767px) {
   .newExpansion a img {
     justify-content: center;
@@ -121,11 +124,11 @@ footer {
     justify-content: left;
   }
   .expansions img {
-    max-width: 80%;
+    max-width: 70%;
     justify-content: start;
   }
   .cardsImg > img {
-    max-width: 80%;
+    max-width: 70%;
     justify-content: center;
   }
   .decks > img {
@@ -176,6 +179,7 @@ footer {
     justify-content: center;
   }
 }
+/* mobile */
 @media (max-width: 480px) {
   .newExpansion a img {
     justify-content: center;
@@ -193,11 +197,11 @@ footer {
     grid-template-rows: 1fr 1fr;
   }
   .cardsImg > img {
-    max-width: 80%;
+    max-width: 70%;
     justify-content: center;
   }
   .decks > img {
-    max-width: 80%;
+    max-width: 70%;
     justify-content: center;
   }
   .deckBox img p {
@@ -245,6 +249,7 @@ footer {
     justify-content: center;
   }
 }
+/* desktop */
 @media (max-width: 1707.33px) {
   .newExpansion a img {
     justify-content: center;
@@ -270,7 +275,7 @@ footer {
     justify-content: center;
   }
   .deckBox > img {
-    max-width: 70%;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -278,7 +283,7 @@ footer {
     margin-top: 10px;
   }
   .accesories > img {
-    max-width: 80%;
+    max-width: 50%;
     display: grid;
     justify-content: center;
   }
