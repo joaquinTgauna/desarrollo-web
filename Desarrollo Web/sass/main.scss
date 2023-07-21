@@ -1,0 +1,128 @@
+html {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.imgBanner {
+    border-radius: 100%;
+    height: auto;
+    max-width: 5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.newExpansion {
+    display: grid;
+    justify-content: center;
+    padding: 5px;
+}
+
+.description {
+    display: grid;
+    justify-content: center;
+
+}
+
+.expansions {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 5px;
+}
+
+.textExpansions {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    display: grid;
+
+}
+
+.copy {
+    color: white;
+    display: grid;
+    justify-content: center;
+
+}
+
+
+
+.price {
+    color: black;
+    justify-content: center;
+    display: flex;
+
+}
+
+.decks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+
+}
+
+.decksPrice {
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+    color: black;
+}
+
+.cardsPrice {
+    display: grid;
+    justify-content: start;
+    padding: 10px;
+}
+
+.img1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.deckBox {
+    display: grid;
+    justify-content: start;
+
+}
+
+.lastExpansion {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.accesories {
+    display: grid;
+    padding: 10px;
+    justify-content: start;
+}
+
+.dprice {
+    display: grid;
+    justify-content: start;
+    padding: 15px;
+    color: black;
+
+}
+
+
+.accesoriesp {
+    display: grid;
+    justify-content: start;
+    padding: 15px;
+    color: black;
+}
+
+
+
+@import 'media';

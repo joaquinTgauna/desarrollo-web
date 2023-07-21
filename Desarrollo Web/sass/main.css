@@ -1,0 +1,327 @@
+html {
+  margin: 0%;
+  padding: 0%;
+}
+
+.imgBanner {
+  border-radius: 100%;
+  height: auto;
+  max-width: 5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.newExpansion {
+  display: grid;
+  justify-content: center;
+  padding: 5px;
+}
+
+.description {
+  display: grid;
+  justify-content: center;
+}
+
+.expansions {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 5px;
+}
+
+.textExpansions {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 10px;
+}
+
+footer {
+  background-color: black;
+  display: grid;
+}
+
+.copy {
+  color: white;
+  display: grid;
+  justify-content: center;
+}
+
+.price {
+  color: black;
+  justify-content: center;
+  display: flex;
+}
+
+.decks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.decksPrice {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+  color: black;
+}
+
+.cardsPrice {
+  display: grid;
+  justify-content: start;
+  padding: 10px;
+}
+
+.img1 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.deckBox {
+  display: grid;
+  justify-content: start;
+}
+
+.lastExpansion {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.accesories {
+  display: grid;
+  padding: 10px;
+  justify-content: start;
+}
+
+.dprice {
+  display: grid;
+  justify-content: start;
+  padding: 15px;
+  color: black;
+}
+
+.accesoriesp {
+  display: grid;
+  justify-content: start;
+  padding: 15px;
+  color: black;
+}
+
+/* tablet */
+@media (max-width: 767px) {
+  .newExpansion a img {
+    justify-content: center;
+    padding: 2, 5px;
+    max-width: 80%;
+  }
+  .lastExpansion img {
+    max-width: 80%;
+    justify-content: left;
+  }
+  .expansions img {
+    max-width: 70%;
+    justify-content: start;
+  }
+  .cardsImg > img {
+    max-width: 70%;
+    justify-content: center;
+  }
+  .decks > img {
+    max-width: 80%;
+    justify-content: center;
+  }
+  .deckBox img p {
+    max-width: 80%;
+    justify-content: center;
+  }
+  .accesories img p {
+    max-width: 80%;
+    display: grid;
+    justify-content: center;
+  }
+}
+@media (min-width: 481px) {
+  .newExpansion a img {
+    max-width: 80%;
+    justify-content: center;
+    padding: 2, 5px;
+  }
+  .lastExpansion img {
+    max-width: 100%;
+    justify-content: left;
+  }
+  .expansions img p {
+    max-width: 80%;
+    justify-content: center;
+  }
+  .cardsImg img p {
+    max-width: 80%;
+    justify-content: center;
+  }
+  .decks img p {
+    max-width: 80%;
+    justify-content: center;
+    display: grid;
+  }
+  .deckBox img p {
+    max-width: 80%;
+    justify-content: center;
+    display: grid;
+  }
+  .accesories img p {
+    max-width: 80%;
+    display: grid;
+    justify-content: center;
+  }
+}
+/* mobile */
+@media (max-width: 480px) {
+  .newExpansion a img {
+    justify-content: center;
+    padding: 2, 5px;
+  }
+  .lastExpansion img {
+    max-width: 100%;
+    justify-content: left;
+  }
+  .expansions img p {
+    max-width: 80%;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .cardsImg > img {
+    max-width: 70%;
+    justify-content: center;
+  }
+  .decks > img {
+    max-width: 70%;
+    justify-content: center;
+  }
+  .deckBox img p {
+    max-width: 80%;
+    justify-content: center;
+  }
+  .accesories img p {
+    max-width: 80%;
+    display: grid;
+    justify-content: center;
+  }
+}
+@media (min-width: 320px) {
+  .newExpansion a img {
+    max-width: 100%;
+    justify-content: center;
+    padding: 2, 5px;
+  }
+  .lastExpansion img {
+    max-width: 100%;
+    justify-content: left;
+  }
+  .expansions img p {
+    max-width: 100%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .cardsImg img p {
+    max-width: 80%;
+    justify-content: center;
+  }
+  .decks img p {
+    max-width: 80%;
+    justify-content: center;
+  }
+  .deckBox img p {
+    max-width: 80%;
+    justify-content: center;
+  }
+  .accesories img p {
+    max-width: 80%;
+    display: grid;
+    justify-content: center;
+  }
+}
+/* desktop */
+@media (max-width: 1707.33px) {
+  .newExpansion a img {
+    justify-content: center;
+    padding: 2, 5px;
+  }
+  .lastExpansion img {
+    max-width: 80%;
+    justify-content: left;
+  }
+  .expansions img p {
+    max-width: 80%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cardsImg > img {
+    max-width: 29%;
+    justify-content: center;
+  }
+  .decks > img {
+    max-width: 29%;
+    justify-content: center;
+  }
+  .deckBox > img {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .accesories > img {
+    max-width: 50%;
+    display: grid;
+    justify-content: center;
+  }
+}
+@media (min-width: 733.33px) {
+  .newExpansion a img {
+    max-width: 100%;
+    justify-content: center;
+    padding: 2, 5px;
+  }
+  .lastExpansion img {
+    max-width: 80%;
+    justify-content: left;
+  }
+  .expansions img p {
+    max-width: 80%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .cardsImg img p {
+    max-width: 10%;
+    justify-content: center;
+  }
+  .decks img p {
+    max-width: 10%;
+    justify-content: center;
+  }
+  .deckBox img p {
+    max-width: 80%;
+    justify-content: center;
+  }
+  .accesories img p {
+    max-width: 30%;
+    display: grid;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
